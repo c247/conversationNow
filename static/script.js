@@ -124,14 +124,13 @@ function setConnectedStatus(status) {
   statusDiv.className = (status) ? "connected" : "reconnecting";
 }
 
-// Let's go! Initialize the world.
 function init() {
-  // Initialize some rooms.
+
   addRoom("lobby");
-  addRoom("rocket");
+  addRoom("blockchain");
   changeRoom("lobby");
-  addMessage("lobby", "Rocket", "Hey! Open another browser tab, send a message.", true);
-  addMessage("rocket", "Rocket", "This is another room. Neat, huh?", true);
+  addMessage("lobby", "ConversationNow", "Hey! Open another browser tab, send a message.", true);
+  addMessage("blockchain", "ConversationNow", "This is room for all things blockchain :)", true);
 
   // Set up the form handler.
   newMessageForm.addEventListener("submit", (e) => {
