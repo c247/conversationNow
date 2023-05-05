@@ -7,6 +7,9 @@ The frontend code is made using HTML, CSS, Javascript. The frontend static files
 
 The app uses a Server-Sent-Events protocol which creates a sustained connection between the client and server where the client can recieve push notifications from the server over a long-lived stream. 
 
+![demo](./demo.PNG)
+
+
 ## Cool files
 - script.js holds client side logic
 - main.rs holds server side logic - to post/retrieve messages
