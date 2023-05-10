@@ -1,6 +1,7 @@
 # conversationNow
 A real time chat application made using Rust, Rocket and Javascript
 ### Demo
+- Note: takes ~30 secs on first load (running on 0.1CPUs :))
 - https://conversationnow.onrender.com/
 
 ## Description
