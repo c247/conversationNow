@@ -1,5 +1,7 @@
 # conversationNow
 A real time chat application made using Rust, Rocket and Javascript
+### Demo
+- https://conversationnow.onrender.com/
 
 ## Description
 The backend code is made using Rust and the Rocket framework
@@ -21,5 +23,4 @@ The app uses a Server-Sent-Events protocol which creates a sustained connection 
 cargo run
 ```
 
-### Demo
-- https://conversationnow.onrender.com/
+
